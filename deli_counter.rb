@@ -5,8 +5,9 @@ def line(array)
   array.each_with_index do |name, index|
   phrase = phrase + " #{index + 1}. #{name}"
   end
-  end
   puts phrase
+  end
+
 end
 
 def take_a_number(array, name)
